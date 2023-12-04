@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
         private float calculation() {
             // создание и инициализация переменной подсчёта стоимости
             float count = (spongeCakes * (100 - spongeCakesDiscount) + cream * (100 - creamDiscount)
-                    + fruits * (100 - fruitsDiscount) + nuts * (100 - nutsDiscount)) / 100 + berries * 3;
+                    + fruits * (100 - fruitsDiscount) + nuts * (100 - nutsDiscount)) / 100 + berries;
             return count; // возврат подсчитанного значения
         }
 
